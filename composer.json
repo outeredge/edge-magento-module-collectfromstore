@@ -1,0 +1,27 @@
+{
+    "name": "outeredge/edge-magento-module-collectfromstore",
+    "type": "magento-module",
+    "description": "Collect From Store Shipping Module by outer/edge",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "outer/edge",
+            "email": "support@outeredgeuk.com"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:outeredge/edge-magento-module-collectfromstore.git"
+        }
+    ],
+    "extra": {
+        "map": [
+            ["app/code/local/Edge/CollectFromStore", "app/code/local/Edge/CollectFromStore"],
+            ["app/etc/modules/Edge_CollectFromStore.xml", "app/etc/modules/Edge_CollectFromStore.xml"]
+        ]
+    }
+}

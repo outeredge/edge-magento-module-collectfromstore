@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Edge_CollectFromStore>
+            <version>1.0.0</version>
+        </Edge_CollectFromStore>
+    </modules>
+    <global>
+        <models>
+            <collectfromstore>
+                <class>Edge_CollectFromStore_Model</class>
+            </collectfromstore>
+        </models>
+        <shipping>
+            <carriers>
+                <collectfromstore>
+                    <class>Edge_CollectFromStore_Model_Carrier_CollectFromStore</class>
+                </collectfromstore>
+            </carriers>
+        </shipping>
+    </global>
+    <default>
+        <carriers>
+            <collectfromstore>
+                <active>0</active>
+                <model>collectfromstore/carrier_collectFromStore</model>
+                <title>Collect From Store</title>
+                <price>0.00</price>
+            </collectfromstore>
+        </carriers>
+    </default>
+</config>
